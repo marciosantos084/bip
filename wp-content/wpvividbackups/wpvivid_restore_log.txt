@@ -1,0 +1,187 @@
+Log created: 2022-05-09 18:14:10
+Type: restore
+[2022-05-09 18:14:10][notice]init restore data
+[2022-05-09 18:14:10][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_all.zip
+[2022-05-09 18:14:10][notice]extract root:C:\xampp\htdocs\bip/wp-content\wpvividbackups\
+[2022-05-09 18:14:10][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_all.zip
+[2022-05-09 18:14:11][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_all.zip
+[2022-05-09 18:14:11][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_all.zip
+[2022-05-09 18:14:13][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:14:13][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip"]
+[2022-05-09 18:14:13][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:14:13][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:14:13][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:14:14][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:14:14][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip"]
+[2022-05-09 18:14:14][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:14:20][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:14:20][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:14:21][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:21][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip"]
+[2022-05-09 18:14:21][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:32][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:32][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:33][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:14:33][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip"]
+[2022-05-09 18:14:33][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:14:33][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:14:33][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:14:34][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:34][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip"]
+[2022-05-09 18:14:34][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:37][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:37][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:38][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:38][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip"]
+[2022-05-09 18:14:38][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:40][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:40][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:14:41][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:41][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip"]
+[2022-05-09 18:14:41][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:52][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:52][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:14:53][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:14:53][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip"]
+[2022-05-09 18:14:53][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:14:58][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:14:58][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:15:00][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:15:00][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip"]
+[2022-05-09 18:15:00][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:15:00][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:15:00][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:15:01][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:15:01][notice]restore from files:["C:\\xampp\\htdocs\\bip\/wp-content\\wpvividbackups\\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip"]
+[2022-05-09 18:15:01][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:15:01][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:15:01][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip
+[2022-05-09 18:15:03][notice]Start restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.zip
+[2022-05-09 18:15:03][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.zip
+[2022-05-09 18:15:03][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.zip
+[2022-05-09 18:15:03][notice]start extracting file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.zip
+[2022-05-09 18:15:03][notice]extract finished file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.zip
+[2022-05-09 18:15:03][notice]sql file: modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.sql
+[2022-05-09 18:15:03][Warning]wpdb
+[2022-05-09 18:15:03][notice]The test to create table succeeds.
+[2022-05-09 18:15:03][notice]The test to insert into table succeeds.
+[2022-05-09 18:15:03][notice]The test to drop table succeeds.
+[2022-05-09 18:15:03][notice]get max_allowed_packet wpdb 
+[2022-05-09 18:15:03][notice]max_allowed_packet less than 32M :16,00 MB
+[2022-05-09 18:15:03][notice]Start import sql file.
+[2022-05-09 18:15:03][notice]old site url:https://modularpress.com.br/bip
+[2022-05-09 18:15:03][notice]old home url:https://modularpress.com.br/bip
+[2022-05-09 18:15:03][notice]old content url:https://modularpress.com.br/bip/wp-content
+[2022-05-09 18:15:03][notice]old upload url:https://modularpress.com.br/bip/wp-content/uploads
+[2022-05-09 18:15:03][notice]old site prefix:wp_
+[2022-05-09 18:15:03][notice]Drop table if exist
+[2022-05-09 18:15:03][notice]Create table wp_alm
+[2022-05-09 18:15:03][notice]Dumping table wp_alm is complete. Start replacing row(s).
+[2022-05-09 18:15:03][notice]Count of rows in wp_alm: 1
+[2022-05-09 18:15:03][notice]Replace the row in 0 line.
+[2022-05-09 18:15:03][notice]finish replace rows
+[2022-05-09 18:15:03][notice]Drop table if exist
+[2022-05-09 18:15:03][notice]Create table wp_commentmeta
+[2022-05-09 18:15:03][notice]Dumping table wp_commentmeta is complete. Start replacing row(s).
+[2022-05-09 18:15:03][notice]Count of rows in wp_commentmeta: 0
+[2022-05-09 18:15:03][notice]Drop table if exist
+[2022-05-09 18:15:03][notice]Create table wp_comments
+[2022-05-09 18:15:03][notice]Dumping table wp_comments is complete. Start replacing row(s).
+[2022-05-09 18:15:03][notice]Count of rows in wp_comments: 0
+[2022-05-09 18:15:03][notice]Drop table if exist
+[2022-05-09 18:15:03][notice]Create table wp_links
+[2022-05-09 18:15:03][notice]Dumping table wp_links is complete. Start replacing row(s).
+[2022-05-09 18:15:03][notice]Count of rows in wp_links: 0
+[2022-05-09 18:15:03][notice]Drop table if exist
+[2022-05-09 18:15:03][notice]Create table wp_options
+[2022-05-09 18:15:03][notice]Dumping table wp_options is complete. Start replacing row(s).
+[2022-05-09 18:15:03][notice]Count of rows in wp_options: 470
+[2022-05-09 18:15:03][notice]Replace the row in 0 line.
+[2022-05-09 18:15:04][notice]finish replace rows
+[2022-05-09 18:15:04][notice]Drop table if exist
+[2022-05-09 18:15:04][notice]Create table wp_postmeta
+[2022-05-09 18:15:05][notice]Dumping table wp_postmeta is complete. Start replacing row(s).
+[2022-05-09 18:15:05][notice]Count of rows in wp_postmeta: 1212
+[2022-05-09 18:15:05][notice]Replace the row in 0 line.
+[2022-05-09 18:15:07][notice]finish replace rows
+[2022-05-09 18:15:07][notice]Drop table if exist
+[2022-05-09 18:15:07][notice]Create table wp_posts
+[2022-05-09 18:15:09][notice]Dumping table wp_posts is complete. Start replacing row(s).
+[2022-05-09 18:15:09][notice]Count of rows in wp_posts: 579
+[2022-05-09 18:15:09][notice]Replace the row in 0 line.
+[2022-05-09 18:15:09][notice]finish replace rows
+[2022-05-09 18:15:09][notice]Drop table if exist
+[2022-05-09 18:15:09][notice]Create table wp_smush_dir_images
+[2022-05-09 18:15:09][notice]Dumping table wp_smush_dir_images is complete. Start replacing row(s).
+[2022-05-09 18:15:09][notice]Count of rows in wp_smush_dir_images: 0
+[2022-05-09 18:15:09][notice]Drop table if exist
+[2022-05-09 18:15:09][notice]Create table wp_term_relationships
+[2022-05-09 18:15:09][notice]Dumping table wp_term_relationships is complete. Start replacing row(s).
+[2022-05-09 18:15:09][Warning]Skip table wp_term_relationships
+[2022-05-09 18:15:09][notice]Drop table if exist
+[2022-05-09 18:15:09][notice]Create table wp_term_taxonomy
+[2022-05-09 18:15:09][notice]Dumping table wp_term_taxonomy is complete. Start replacing row(s).
+[2022-05-09 18:15:09][notice]Count of rows in wp_term_taxonomy: 47
+[2022-05-09 18:15:09][notice]Replace the row in 0 line.
+[2022-05-09 18:15:09][notice]finish replace rows
+[2022-05-09 18:15:09][notice]Drop table if exist
+[2022-05-09 18:15:09][notice]Create table wp_termmeta
+[2022-05-09 18:15:09][notice]Dumping table wp_termmeta is complete. Start replacing row(s).
+[2022-05-09 18:15:09][notice]Count of rows in wp_termmeta: 0
+[2022-05-09 18:15:09][notice]Drop table if exist
+[2022-05-09 18:15:09][notice]Create table wp_terms
+[2022-05-09 18:15:09][notice]Dumping table wp_terms is complete. Start replacing row(s).
+[2022-05-09 18:15:09][notice]Count of rows in wp_terms: 47
+[2022-05-09 18:15:09][notice]Replace the row in 0 line.
+[2022-05-09 18:15:09][notice]finish replace rows
+[2022-05-09 18:15:09][notice]Drop table if exist
+[2022-05-09 18:15:09][notice]Create table wp_toolset_post_guid_id
+[2022-05-09 18:15:09][notice]Dumping table wp_toolset_post_guid_id is complete. Start replacing row(s).
+[2022-05-09 18:15:09][notice]Count of rows in wp_toolset_post_guid_id: 1
+[2022-05-09 18:15:09][notice]Replace the row in 0 line.
+[2022-05-09 18:15:09][notice]finish replace rows
+[2022-05-09 18:15:09][notice]Drop table if exist
+[2022-05-09 18:15:09][notice]Create table wp_usermeta
+[2022-05-09 18:15:10][notice]Dumping table wp_usermeta is complete. Start replacing row(s).
+[2022-05-09 18:15:10][notice]Count of rows in wp_usermeta: 78
+[2022-05-09 18:15:10][notice]Replace the row in 0 line.
+[2022-05-09 18:15:10][notice]finish replace rows
+[2022-05-09 18:15:10][notice]Drop table if exist
+[2022-05-09 18:15:10][notice]Create table wp_users
+[2022-05-09 18:15:10][notice]Dumping table wp_users is complete. Start replacing row(s).
+[2022-05-09 18:15:10][notice]Count of rows in wp_users: 2
+[2022-05-09 18:15:10][notice]Replace the row in 0 line.
+[2022-05-09 18:15:10][notice]finish replace rows
+[2022-05-09 18:15:10][notice]Drop table if exist
+[2022-05-09 18:15:10][notice]Create table wp_wonderplugin_carousel
+[2022-05-09 18:15:10][notice]Dumping table wp_wonderplugin_carousel is complete. Start replacing row(s).
+[2022-05-09 18:15:10][notice]Count of rows in wp_wonderplugin_carousel: 1
+[2022-05-09 18:15:10][notice]Replace the row in 0 line.
+[2022-05-09 18:15:10][notice]finish replace rows
+[2022-05-09 18:15:10][notice]Drop table if exist
+[2022-05-09 18:15:10][notice]Create table wp_wpvivid_scan_result
+[2022-05-09 18:15:10][notice]Dumping table wp_wpvivid_scan_result is complete. Start replacing row(s).
+[2022-05-09 18:15:10][notice]Count of rows in wp_wpvivid_scan_result: 0
+[2022-05-09 18:15:10][notice]Drop table if exist
+[2022-05-09 18:15:10][notice]Create table wp_wpvivid_unused_uploads_files
+[2022-05-09 18:15:10][notice]Dumping table wp_wpvivid_unused_uploads_files is complete. Start replacing row(s).
+[2022-05-09 18:15:10][notice]Count of rows in wp_wpvivid_unused_uploads_files: 0
+[2022-05-09 18:15:10][notice]Drop table if exist
+[2022-05-09 18:15:10][notice]Create table wp_yuzoviews
+[2022-05-09 18:15:10][notice]Dumping table wp_yuzoviews is complete. Start replacing row(s).
+[2022-05-09 18:15:10][notice]Count of rows in wp_yuzoviews: 8
+[2022-05-09 18:15:10][notice]Replace the row in 0 line.
+[2022-05-09 18:15:10][notice]finish replace rows
+[2022-05-09 18:15:10][notice]UPDATE wp_options SET option_value="http://localhost/bip" WHERE option_name="siteurl";
+[2022-05-09 18:15:10][notice]update query len:86
+[2022-05-09 18:15:10][notice]UPDATE wp_options SET option_value="http://localhost/bip" WHERE option_name="home";
+[2022-05-09 18:15:10][notice]update query len:83
+[2022-05-09 18:15:10][notice]Finished restoring modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.zip
+[2022-05-09 18:15:11][notice]Restore task completed.
+[2022-05-09 18:15:13][notice]disable maintenance mode
+[2022-05-09 18:15:13][notice]clean file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_uploads.zip
+[2022-05-09 18:15:13][notice]clean file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_plugin.zip
+[2022-05-09 18:15:13][notice]clean file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_core.zip
+[2022-05-09 18:15:13][notice]clean file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_db.zip
+[2022-05-09 18:15:13][notice]clean file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_themes.zip
+[2022-05-09 18:15:13][notice]clean file:C:\xampp\htdocs\bip/wp-content\wpvividbackups\modularpress.com.br_bip_wpvivid-62797d927f309_2022-05-09-17-46_backup_content.zip

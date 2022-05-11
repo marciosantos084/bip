@@ -1,0 +1,43 @@
+
+	<div class="post-list">
+		<div class="image-post">
+			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="">
+				<?php 
+				if ( has_post_thumbnail() ) {
+					$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' );
+					if ( ! empty( $large_image_url[0] ) ) {
+						echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); 
+					}
+				}
+				?>
+			</a>
+		</div>
+		<div class="loop-content">
+			<h4>                                
+				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark" class="title-<?php foreach((get_the_category()) as $category){echo $category->slug;}?>">
+					<?php title_limite(25); ?>
+				</a>                            
+			</h4>
+			<!-- .single-entry-summary -->
+			<div class="content-inner">                                                      
+				<div class="content-summary">
+					<p>
+						<?php
+
+								$conteudo = get_the_excerpt();
+								$limite_conteudo = wp_trim_words( $conteudo, 20);
+								echo $limite_conteudo;
+
+							?>
+					</p>
+				</div><!-- .single-entry-summary -->
+				<a  class="saiba-mais-<?php foreach((get_the_category()) as $category){echo $category->slug;}?>" href="<?php the_permalink(); ?>">
+				<svg version="1.1" id="layer-<?php the_ID(); ?>" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 11.8 21.1" style="enable-background:new 0 0 11.8 21.1;" xml:space="preserve">
+
+				<path class="saiba-mais-<?php foreach((get_the_category()) as $category){echo $category->slug;}?>" d="M1.8,1.6L10,9.8c0.4,0.4,0.4,1.1,0,1.5l-8.2,8.3"/>
+				</svg> Saiba mais
+			</a>
+			</div>                                                             
+		</div>  
+	</div>
