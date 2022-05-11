@@ -26,7 +26,7 @@ function bip_setup(){
 			'default-color' => 'ffffff',
 		);
 		add_theme_support( 'custom-background', $args );
-
+ 
 		add_theme_support( 'custom-logo', array(
 			'height'		 => 70,
 			'width'			 => 200,
