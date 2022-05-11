@@ -3,7 +3,7 @@
 <div class="row-categorias container">
 <?php get_template_part( 'template-parts/template-part', 'topnav' ); ?>
 
-</div>
+</div> 
 <!-- start content container -->
 <div class="row align-self-center">
 	<div class="col-md-<?php bip_main_content_width_columns(); ?>">
