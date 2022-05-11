@@ -19,7 +19,7 @@ function bip_setup(){
 	);
 	add_theme_support( 'post-thumbnails' );
 		set_post_thumbnail_size( 300, 300, true );
-		add_image_size( 'bulk-single', 1170, 460, true );
+		add_image_size( 'bip-single', 1170, 460, true );
 
 		// Add Custom Background Support.
 		$args = array(
@@ -47,11 +47,11 @@ function bip_setup(){
 				'name'				 => esc_html__( 'Elementor', 'bip' ),
 				'active_filename'	 => 'elementor/elementor.php',
 				/* translators: %1$s "Elementor Page Builder" plugin name string */
-				'description' => sprintf( esc_attr__( 'To take full advantage of all the features this theme has to offer, please install and activate the %s plugin.', 'bulk' ), '<strong>Elementor Page Builder</strong>' ),
+				'description' => sprintf( esc_attr__( 'To take full advantage of all the features this theme has to offer, please install and activate the %s plugin.', 'bip' ), '<strong>Elementor Page Builder</strong>' ),
 			),
 		) );
 
-		add_theme_support( 'custom-header', apply_filters( 'bulk_setup_args', array(
+		add_theme_support( 'custom-header', apply_filters( 'bip_setup_args', array(
         'default-image'      => get_parent_theme_file_uri( '/img/header.jpg' ),
 			'width'              => 2000,
 			'height'             => 1200,
