@@ -1,0 +1,54 @@
+# Translation of Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-03 13:45:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Set up sharing tools from AddThis right in WordPress. With AddThis you can see how your users are engaging with your content, provide a personalized experience for each user and encourage them to share your content in their social networks. Follow tools, recommended content, conversion tools and social analytics available to registered accounts at addthis.com."
+msgstr "Configure ferramentas de compartilhamento do AddThis diretamente no WordPress. Com o AddThis você pode ver como seus usuários estão se engajando com seu conteúdo, fornecer uma experiência personalizada para cada usuário e incentivá-los a compartilhar seu conteúdo na suas redes sociais. Ferramentas de rastreamento, conteúdo recomendado, ferramentas de conversão e análises sociais estão disponíveis para contas registradas em addthis.com."
+
+#. Author URI of the plugin
+msgid "http://www.addthis.com"
+msgstr "http://www.addthis.com"
+
+#. Author of the plugin
+msgid "The AddThis Team"
+msgstr "Equipe AddThis"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/addthis/"
+msgstr "https://br.wordpress.org/plugins/addthis/"
+
+#. Plugin Name of the plugin
+msgid "Share Buttons by AddThis"
+msgstr "Share Buttons por AddThis"
+
+#: backend/AddThisWidgetByDomClass.php:242
+msgid "Tool: "
+msgstr "Ferramenta: "
+
+#: backend/AddThisWidgetByDomClass.php:200
+#: backend/AddThisWidgetByDomClass.php:498
+msgid "Title: "
+msgstr "Título: "
+
+#: backend/AddThisGlobalOptionsFeature.php:976
+msgid "Terms of Service"
+msgstr "Termos de uso"
+
+#: backend/AddThisGlobalOptionsFeature.php:971
+msgid "Privacy Policy"
+msgstr "Política de privacidade"
+
+#: backend/AddThisGlobalOptionsFeature.php:931
+#: backend/AddThisWidgetByDomClass.php:491
+msgid "the plugin's settings"
+msgstr "as configurações do plugin"
