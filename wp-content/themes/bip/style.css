@@ -4,11 +4,11 @@ Author: Márcio dos Santos
 Author URI: https://modularpress.com.br
 Description: Bip é um tema WordPress multiuso moderno e responsivo, desenvolvido para o site de negócios Globo. 
 Version: 1.0.0
-Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready, custom-logo, photography, threaded-comments, e-commerce, portfolio
+Tags: threaded-comments
 Text Domain: bip
 */
 
-/* The bootstrap.css file is auto-enqueued in functions.php */
+
 *{
 	outline: none;
 }
