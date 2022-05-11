@@ -1,5 +1,5 @@
 == BIP ==
-Contributors: ModularPress
+Contributors: Márcio dos Santos
 Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready
 Requires at least: 4.4
 Tested up to: 4.9
