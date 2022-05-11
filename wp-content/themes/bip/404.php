@@ -1,13 +1,17 @@
 <?php get_header(); ?>
 <?php get_template_part( 'template-parts/template-part', 'content' ); ?>
+<div class="row-categorias container">
+<?php get_template_part( 'template-parts/template-part', 'topnav' ); ?>
+
+</div>
 <!-- start content container -->
-<div class="row">
+<div class="row align-self-center">
 	<div class="col-md-<?php bip_main_content_width_columns(); ?>">
 		<div class="main-content-page">
 			<div class="error-template text-center">
-				<h1><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'bip' ); ?></h1>
+				<h1>404<br><?php esc_html_e( 'OPA! ESSA PÁGINA NÃO PODE SER ENCONTRADA.', 'bip' ); ?></h1>
 				<p class="error-details">
-					<?php esc_html_e( 'Looks like nothing was found at this location. Want to try a search?', 'bip' ); ?>
+					<?php esc_html_e( 'Parece que nada foi encontrado neste local. Quer tentar uma pesquisa?', 'bip' ); ?>
 				</p>
 				<div class="error-actions">
 					<?php get_search_form(); ?>    
