@@ -6,7 +6,59 @@
 function bip_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'bip_content_width', 1170 );
 }
+add_action( 'after_setup_theme', 'bip_setup' );
+function bip_setup(){
+	// Add Title Tag Support.
+	add_theme_support( 'title-tag' );
 
+	// Register Menus.
+	register_nav_menus(
+		array(
+			'main_menu' => esc_html__( 'Main menu', 'bip' ),
+		)
+	);
+	add_theme_support( 'post-thumbnails' );
+		set_post_thumbnail_size( 300, 300, true );
+		add_image_size( 'bulk-single', 1170, 460, true );
+
+		// Add Custom Background Support.
+		$args = array(
+			'default-color' => 'ffffff',
+		);
+		add_theme_support( 'custom-background', $args );
+
+		add_theme_support( 'custom-logo', array(
+			'height'		 => 70,
+			'width'			 => 200,
+			'flex-height'	 => true,
+			'flex-width'	 => true,
+			'header-text'	 => array( 'site-title', 'site-description' ),
+		) );
+
+		// Adds RSS feed links to for posts and comments.
+		add_theme_support( 'automatic-feed-links' );
+
+		// WooCommerce support.
+		add_theme_support( 'woocommerce' );
+
+		// Recommend plugins.
+		add_theme_support( 'recommend-plugins', array(
+			'elementor' => array(
+				'name'				 => esc_html__( 'Elementor', 'bip' ),
+				'active_filename'	 => 'elementor/elementor.php',
+				/* translators: %1$s "Elementor Page Builder" plugin name string */
+				'description' => sprintf( esc_attr__( 'To take full advantage of all the features this theme has to offer, please install and activate the %s plugin.', 'bulk' ), '<strong>Elementor Page Builder</strong>' ),
+			),
+		) );
+
+		add_theme_support( 'custom-header', apply_filters( 'bulk_setup_args', array(
+        'default-image'      => get_parent_theme_file_uri( '/img/header.jpg' ),
+			'width'              => 2000,
+			'height'             => 1200,
+			'flex-height'        => true,
+			'video'              => false,
+    ) ) );
+}
 add_action( 'after_setup_theme', 'bip_content_width', 0 );
 
 /**
@@ -143,7 +195,28 @@ if ( !function_exists( 'bip_posted_on' ) ) :
 
 endif;
 
+if ( !function_exists( 'bip_time_link' ) ) :
 
+	/**
+	 * Gets a nicely formatted string for the published date.
+	 */
+	function bip_time_link() {
+		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+		if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+		}
+
+		$time_string = sprintf( $time_string, get_the_date( DATE_W3C ), get_the_date(), get_the_modified_date( DATE_W3C ), get_the_modified_date()
+		);
+
+		// Wrap the time string in a link, and preface it with 'Posted on'.
+		return sprintf(
+		/* translators: %s: post date */
+		__( 'Posted on %s', 'bip' ), '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		);
+	}
+
+endif;
 
 
 if ( !function_exists( 'bip_entry_footer' ) ) :
@@ -194,6 +267,29 @@ if ( !function_exists( 'bip_entry_footer' ) ) :
 
 endif;
 
+if ( !function_exists( 'bip_generate_construct_footer' ) ) :
+	/**
+	 * Build footer
+	 */
+	add_action( 'bip_generate_footer', 'bip_generate_construct_footer' );
+
+	function bip_generate_construct_footer() {
+		?>
+		<p class="footer-credits-text text-center">
+			<?php 
+			/* translators: %1$s: link to wordpress.org */
+			printf( esc_html__( 'Proudly powered by %s', 'bip' ), '<a href="' . esc_url( __( 'https://wordpress.org/', 'bip' ) ) . '">WordPress</a>' );
+			?>
+			<span class="sep"> | </span>
+			<?php 
+			/* translators: %1$s: link to theme page */
+			printf( esc_html__( 'Theme: %1$s', 'bip' ), '<a href="https://themes4wp.com/">bip</a>' );
+			?>
+		</p> 
+		<?php
+	}
+
+endif;
 
 if ( !function_exists( 'bip_custom_class' ) ) :
 	/**
