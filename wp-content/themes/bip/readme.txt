@@ -5,7 +5,7 @@ Requires at least: 4.4
 Tested up to: 4.9
 Version: 1.0.0
 
-Tema WordPress multiuso para o construtor de páginas de arrastar e soltar Elementor.
+Tema WordPress multiuso.
 
 == Description ==
 
